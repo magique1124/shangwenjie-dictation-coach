@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "note": "Starter registry of credible source patterns. Verify publication date, access, audio, and transcript for every candidate.",
+  "domains": {
+    "ai": {
+      "official_article_audio": ["openai.com", "anthropic.com", "deepmind.google", "microsoft.com", "ai.googleblog.com"],
+      "official_talks": ["ted.com", "stanford.edu", "mit.edu", "acm.org"],
+      "credible_publishers": ["economist.com", "technologyreview.com", "scientificamerican.com"]
+    },
+    "economics": {
+      "official_article_audio": ["economist.com", "imf.org", "worldbank.org", "bis.org"],
+      "official_talks": ["federalreserve.gov", "ecb.europa.eu", "bankofengland.co.uk", "nber.org"],
+      "credible_publishers": ["economist.com", "ft.com", "brookings.edu"]
+    },
+    "law": {
+      "official_article_audio": ["americanbar.org", "law.stanford.edu", "hls.harvard.edu"],
+      "official_talks": ["supremecourt.gov", "uscourts.gov", "justice.gov", "law.stanford.edu", "hls.harvard.edu"],
+      "credible_publishers": ["americanbar.org", "lawreview.org", "brookings.edu"]
+    },
+    "marketing": {
+      "official_article_audio": ["thinkwithgoogle.com", "blog.google", "business.linkedin.com", "hubspot.com"],
+      "official_talks": ["ama.org", "nielsen.com", "meta.com", "salesforce.com", "hubspot.com"],
+      "credible_publishers": ["economist.com", "hbr.org", "mckinsey.com"]
+    },
+    "medicine": {
+      "official_article_audio": ["who.int", "nih.gov", "cdc.gov", "fda.gov"],
+      "official_talks": ["who.int", "nih.gov", "cdc.gov", "fda.gov", "harvard.edu", "stanford.edu"],
+      "credible_publishers": ["nejm.org", "thelancet.com", "bmj.com", "nature.com"]
+    },
+    "general": {
+      "official_article_audio": ["economist.com", "ted.com", "scientificamerican.com"],
+      "official_talks": ["ted.com", "un.org", "worldbank.org", "universities"],
+      "credible_publishers": ["economist.com", "bbc.com", "scientificamerican.com"]
+    }
+  }
+}
