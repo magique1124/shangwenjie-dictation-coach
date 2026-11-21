@@ -235,7 +235,7 @@ shangwenjie-dictation-coach/
 
 | 模块 | 实现 |
 | --- | --- |
-| 材料搜索 | 来源类型优先级 + 多领域来源库 + freshness/access/transcript 维�合排序 |
+| 材料搜索 | 来源类型优先级 + 多领域来源库 + freshness/access/transcript 综合排序 |
 | URL 验证 | canonical/share/user-provided URL；不根据标题猜 slug |
 | 听写对齐 | Python 标准库词级 diff，识别 omission、replacement、insertion、spelling |
 | 错误诊断 | 可观察错误与推断原因分开，证据不足时标记置信度 |
